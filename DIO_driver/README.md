@@ -14,4 +14,4 @@
 ---
 
 ## Schematic
-![bcm_schematic](./Simulation/led_seq_v1.PNG)
+![bcm_schematic](./Simulation/LED_SEQ_V1.png)
