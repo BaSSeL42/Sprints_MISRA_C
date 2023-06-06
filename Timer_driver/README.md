@@ -7,16 +7,10 @@
 ---
 ## My work
 
-**`Code Implementation...........`** 👉🏻 [Document](./Code/)
+**`Code Implementation...........`** 👉🏻 [HERE](./Code/)
 
-**`Video.........................`** 👉🏻 [video](./Video/)
+**`Video.........................`** 👉🏻 [HERE](./Video/)
 
 ---
-
-## video
-
-
-
-
 ## Schematic
 ![bcm_schematic](./Simulation/led_seq_v3.PNG)
