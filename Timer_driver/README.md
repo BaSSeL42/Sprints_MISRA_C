@@ -7,9 +7,9 @@
 ---
 ## My work
 
-**`Code Implementation...........`** 👉🏻 [Document](./Code/)
+**`Code Implementation...........`** 👉🏻 [HERE](./Code/)
 
-**`Video.........................`** 👉🏻 [video](./Video/)
+**`Video.........................`** 👉🏻 [HERE](./Video/)
 
 ---
 
