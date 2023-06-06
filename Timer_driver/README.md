@@ -13,10 +13,6 @@
 
 ---
 
-## video
-
-
-
 
 ## Schematic
 ![bcm_schematic](./Simulation/led_seq_v3.PNG)
