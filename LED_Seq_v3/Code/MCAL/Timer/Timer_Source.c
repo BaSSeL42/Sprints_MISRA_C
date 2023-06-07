@@ -54,7 +54,7 @@ enu_timerStatus_t enuTimer0_init (enu_timerMode_t enTimerMode)
 		case PHASE_CORRECT_PWM_MODE : ClrBit(TCCR0_REG, WGM01);SetBit(TCCR0_REG, WGM00); break;
 		case CTC_MODE 				: SetBit(TCCR0_REG, WGM01);ClrBit(TCCR0_REG, WGM00); break;
 		case FAST_PWM_MODE 			: SetBit(TCCR0_REG, WGM01);SetBit(TCCR0_REG, WGM00); break;
-		default 					: errorStatus = TIMER_NOK; break;
+		default 					: /* do nothing */ 									 break;
 		}
 	}
 	else

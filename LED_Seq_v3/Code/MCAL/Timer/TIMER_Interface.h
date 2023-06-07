@@ -12,39 +12,8 @@
 /************************************************************************************************/
 /*									MACROS														*/
 /************************************************************************************************/
-/* TCCRO REG */
-#define CS00		0
-#define CS01		1
-#define CS02		2
-#define WGM01		3
-#define COM00		4
-#define COM01		5
-#define WGM00		6
-#define FOC0		7
-
-/* TIMSK REG */
-#define TOIE0		0
-#define OCIE0		1
-#define TOIE1		2
-#define OCIE1A		3
-#define OCIE1B		4
-#define TICIE1		5
-#define TOIE2		6
-#define OCIE2		7
-
-/* TIFR REG */
-#define TOV0		0
-#define OCF0		1
-#define TOV1		2
-#define OCF1A		3
-#define OCF1B		4
-#define ICF1		5
-#define TOV2		6
-#define OCF2		7
 
 
-/* SREG REG */
-#define timer_I		7
 
 /************************************************************************************************/
 /*									USER_DEFINED TYPES											*/
@@ -130,10 +99,6 @@ enu_timerStatus_t vidTimer0_start(void);
 enu_timerStatus_t vidTimer0_stop(void);
 
 enu_timerStatus_t u8Timer0_setTime_ms(Uint32_t u32_time_ms);
-
-
-enu_timerStatus_t enuFastPWM0_init(enu_pwmMode_t ,enu_timerPrescalar_t );
-enu_timerStatus_t vidPWM0_Generate(Uint8_t);
 
 enu_timerStatus_t vidTimer0_setcbf_OVF(ptrFunc_t ptrFunc);
 
