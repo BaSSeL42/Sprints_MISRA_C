@@ -28,9 +28,9 @@
 
 > **Rule 14.2:** _All non-static functions shall have external linkage._
 
-> **Rule 14.3:** _A function shall not have multiple exit points.
+> **Rule 14.3:** _A function shall not have multiple exit points._
 
-> **Rule 17.3:** Type definitions shall not be used in the return types of functions._
+> **Rule 17.3:** _Type definitions shall not be used in the return types of functions._
 
 > **Rule 18.4:** _Unions shall not be used._
 
