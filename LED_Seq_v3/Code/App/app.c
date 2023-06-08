@@ -7,7 +7,6 @@
 /*******************************************************************************
  * 								Includes
  ******************************************************************************/
-#include <util/delay.h>
 #include "../Common/Bit_Math.h"
 #include "../Common/std_types.h"
 #include "../HAL/Button/button.h"
@@ -80,8 +79,24 @@ void APP_Init(void)
 					gl_enu_hal_timer_state &= HTimer_enCBF(blink);
 					GLI();
 				}
+				else
+				{
+					/* do nothing */
+				}
+			}
+			else
+			{
+				/* do nothing */
 			}
 		}
+		else
+		{
+			/* do nothing */
+		}
+	}
+	else
+	{
+		/* do nothing */
 	}
 
 
@@ -96,6 +111,10 @@ void APP_Init(void)
 		gl_enu_led_state &= HLed_off(DIO_PINC_3);
 
 		gl_enu_hal_timer_state &=  HTimer_vidDelayMs(10);
+	}
+	else
+	{
+		/* do nothing */
 	}
 
 }
@@ -168,7 +187,6 @@ void APP_Start(void)
 			{
 				/* do nothing */
 			}
-
 		}
 		else if(gl_u32_timer_counter == gl_u32_time_2 )
 		{
@@ -177,6 +195,10 @@ void APP_Start(void)
 			gl_enu_led_state &= HLed_off(DIO_PINC_2);
 			gl_enu_led_state &= HLed_off(DIO_PINC_3);
 			gl_u32_timer_counter = 0;
+		}
+		else
+		{
+			/*do nothing*/
 		}
 	}
 }
@@ -262,5 +284,9 @@ static void changeBlinkTime(void)
 	{
 		gl_u32_time_1 = 90;
 		gl_u32_time_2 = 100;
+	}
+	else
+	{
+		/* do nothing */
 	}
 }
